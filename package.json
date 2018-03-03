@@ -1,6 +1,7 @@
 {
   "name": "chocolate",
   "version": "1.0.0",
+  "private": true,
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -17,7 +18,9 @@
   },
   "homepage": "https://github.com/Hi-Alex/Chocolate#readme",
   "devDependencies": {
+    "@secundant/test-utils": "^0.0.6",
     "@secundant/tslib": "^0.0.5",
+    "jest": "^22.4.2",
     "lerna": "^2.9.0"
   },
   "workspaces": [
